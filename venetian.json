@@ -1,0 +1,19 @@
+{
+  "booking": [
+    {
+      "from": 1512041400,
+      "person": "Joe",
+      "to": 1512043200
+    },
+    {
+      "from": 1512043200,
+      "person": "Mary",
+      "to": 1512046800
+    }
+  ],
+  "capacity": 4,
+  "empty": true,
+  "locale": "en-US",
+  "location": "floor 2",
+  "room_name": "venetian"
+}

@@ -1,0 +1,36 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.AddAction<object@Event>"
+      },
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": [
+          "Jarvis Office cancel booking"
+        ]
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": [
+          "Jarvis Office stop booking"
+        ]
+      },
+      {
+        "name": "JO_BookingIntent",
+        "samples": [
+          "Jarvis Office book a meeting",
+          "Jarvis Office book a room",
+          "Jarvis Office book a conference room",
+          "Jarvis Office which rooms are available"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "jarvis office"
+  }
+}
